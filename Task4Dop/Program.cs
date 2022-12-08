@@ -7,11 +7,11 @@ while (n < 3 || n > 1000)
     Console.WriteLine("Вы ошиблись! \nВведите правильное кол-во кустов: ");
     n = Convert.ToInt32(Console.ReadLine());
 }
-int[] a = new int[n];               // количество кустов
+int[] a = new int[n];                      // количество кустов
 n = a.Length;
 for(int i = 0;i < a.Length; i ++)
 {
-    a[i]= new Random().Next(5,20);  // все кусты с разным количеством ягод
+    a[i]= new Random().Next(5,20);         // все кусты с разным количеством ягод
     Console.WriteLine("Номер куста " + i + "     Количество ягод на нем     " + a[i]);        // вывел для сверки
 }
 Console.WriteLine("Введите номер куста: ");
