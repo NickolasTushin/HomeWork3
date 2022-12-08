@@ -7,6 +7,7 @@ while (n < 3 || n > 1000)
     Console.WriteLine("Вы ошиблись! \nВведите правильное кол-во кустов: ");
     n = Convert.ToInt32(Console.ReadLine());
 }
+Console.Clear();
 int[] a = new int[n];                      // количество кустов
 n = a.Length;
 for(int i = 0;i < a.Length; i ++)
